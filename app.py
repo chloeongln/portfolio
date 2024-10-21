@@ -153,7 +153,7 @@ with st.container():
                        - Although ensemble models increase model performance compared to individual models, if a dataset is imbalanced, the overall model performance may still not be as accurate.
                        - Hence, even if balancing is performed, the use of oversampling cannot be too extreme as well due to noise and overfitting. Thus, it is always best to strive for a balanced dataset during data collection.  
                          """)
-        st.image(image_4)
+        st.image(image_3)
         st.write("---")
         # create project 3 container 
         with st.container():
