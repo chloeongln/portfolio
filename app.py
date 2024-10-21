@@ -137,7 +137,6 @@ with st.container():
                         - Logistic Regression
                          """)
                 st.write("---")
-                
         # create project 2 container 
         with st.container():
             st.write("##")
@@ -154,7 +153,7 @@ with st.container():
                        - Although ensemble models increase model performance compared to individual models, if a dataset is imbalanced, the overall model performance may still not be as accurate.
                        - Hence, even if balancing is performed, the use of oversampling cannot be too extreme as well due to noise and overfitting. Thus, it is always best to strive for a balanced dataset during data collection.  
                          """)
-                
+        st.write("---")
         # create project 3 container 
         with st.container():
             st.write("##")
@@ -164,7 +163,7 @@ with st.container():
             with col9:
                 st.subheader("Market Basket Analysis: Association for Cross-Selling")
                 st.write("""
-                        Built a association rule model for Guerlain analytics team to identify associated products in a basket.
-                        Developed webapp with streamlit to deploy model for internal usage. 
+                        - Built a association rule model for Guerlain analytics team to identify associated products in a basket.
+                        - Developed webapp with streamlit to deploy model for internal usage. 
                          """)
         st.write("---")
