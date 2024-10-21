@@ -123,3 +123,4 @@ with st.container():
                          """)
         st.image(image_3)
         st.write("---")
+        st.write("""<br>Other projects not shown: webapp for market basket analysis, using Associaotn
