@@ -20,6 +20,7 @@ lottie_coder = load_lottieurl("https://lottie.host/73562ab9-4415-4dfa-97d0-d1288
 image = Image.open("assets/student LA.png")
 image2 = Image.open("assets/student LA.png")
 image_3 = Image.open("assets/app.png")
+image_4 = Image.open("assets/ml.png")
 
 # create title and header section
 with st.container():
@@ -109,7 +110,7 @@ with st.container():
             st.write("##")
             col6, col7 = st.columns([1, 2], gap="large")
             with col6:
-                st.image(image_3)
+                st.image(image_4)
             with col7:
                 st.subheader("Machine Learning: Prediction of Diabetes")
                 st.write("""
@@ -119,4 +120,5 @@ with st.container():
                        - Although ensemble models increase model performance compared to individual models, if a dataset is imbalanced, the overall model performance may still not be as accurate.
                        - Hence, even if balancing is performed, the use of oversampling cannot be too extreme as well due to noise and overfitting. Thus, it is always best to strive for a balanced dataset during data collection.  
                          """)
-                st.write("---")
+        st.image(image_3)
+        st.write("---")
