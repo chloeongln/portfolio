@@ -17,8 +17,9 @@ def load_lottieurl(url):
 lottie_coder = load_lottieurl("https://lottie.host/73562ab9-4415-4dfa-97d0-d1288f0fd646/e5JeSHHGeZ.json")
 
 # load project
-image = Image.open("/Users/chloeong/Desktop/web-port/assets/student LA.png")
-image2 = Image.open("/Users/chloeong/Desktop/web-port/assets/student LA.png")
+image = Image.open("assets/student LA.png")
+image2 = Image.open("assets/student LA.png")
+image_3 = Image.open("assets/app.png")
 
 # create title and header section
 with st.container():
@@ -108,7 +109,7 @@ with st.container():
             st.write("##")
             col6, col7 = st.columns([1, 2], gap="large")
             with col6:
-                st.image(image)
+                st.image(image_3)
             with col7:
                 st.subheader("Machine Learning: Prediction of Diabetes")
                 st.write("""
