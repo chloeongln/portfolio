@@ -21,6 +21,7 @@ image = Image.open("assets/student LA.png")
 image2 = Image.open("assets/student LA.png")
 image_3 = Image.open("assets/app.png")
 image_4 = Image.open("assets/ml.png")
+image_5 = Image.open("assets/market_basket.png")
 
 # create title and header section
 with st.container():
@@ -80,10 +81,42 @@ with st.container():
             st.subheader("Experiences")
             st.write("""
                     <strong>LVMH Perfume & Cosmetics, Guerlain</strong><br>
-                    Regional Data Analyst<br>
+                    Regional Data Analyst Intern<br>
                 """, unsafe_allow_html=True)
+            st.write("""
+            - Managed data extraction, analysis and user requests for APAC in Excel Database and Adobe Campaign. 
+            - Developed and maintained PowerBI dashboards to track daily retail KPIs.
+            - Built an association rule model and developed a web app to identify key associations in a basket for cross-selling.
+            - Streamlined monthly data handling and automated workflow, data cleaning, processing and visualising.
+            - Conducted research and analysis on consumer behavioral trends in travel retail and local markets.
+            - Collaborated with internal stakeholders and teams to carry out marketing campaigns.
+            """)
+
             st.write("---")
-    
+            st.write("""
+                    <strong>CPF Board</strong><br>
+                    Data Science Intern<br>
+                    """, unsafe_allow_html=True)
+            st.write("""
+            - Converted SAS programs to functional statistical reports in PySpark as part of UDP migration initiative. 
+            - Debugged scripts using PySpark, SQL and SAS in the Azure DataBricks environment.
+            -Co-facilitated company-wide workshops on the use of Azure Purview, Databricks and PowerBI. 
+            - Provided company-wide consulting, offering specialized support in PySpark queries and resolving related issues. 
+            """)
+            st.write("---")
+            
+            st.write("""
+                    <strong>DL Technology Pte Ltd</strong><br>
+                    Operations Manager<br>
+                    """, unsafe_allow_html=True)
+            st.write("""
+            - Managed procurement, point of sales and accounting operations.
+            - Spearheaded clientele projects, leading on-site assessments and installation of products. 
+            - Liaised with clients and stakeholders to ensure effective communication and project alignment. 
+            - Proposed and executed marketing campaigns, including the design of product infographics. 
+            """)
+            st.write("---")
+
     # define condition for second option, projects
     if selected == "Projects":
 
@@ -104,7 +137,7 @@ with st.container():
                         - Logistic Regression
                          """)
                 st.write("---")
-        
+                
         # create project 2 container 
         with st.container():
             st.write("##")
@@ -121,6 +154,17 @@ with st.container():
                        - Although ensemble models increase model performance compared to individual models, if a dataset is imbalanced, the overall model performance may still not be as accurate.
                        - Hence, even if balancing is performed, the use of oversampling cannot be too extreme as well due to noise and overfitting. Thus, it is always best to strive for a balanced dataset during data collection.  
                          """)
-        st.image(image_3)
+                
+        # create project 3 container 
+        with st.container():
+            st.write("##")
+            col8, col9 = st.columns([1, 2], gap="large")
+            with col8:
+                st.image(image_5)
+            with col9:
+                st.subheader("Market Basket Analysis: Association for Cross-Selling")
+                st.write("""
+                        Built a association rule model for Guerlain analytics team to identify associated products in a basket.
+                        Developed webapp with streamlit to deploy model for internal usage. 
+                         """)
         st.write("---")
-        st.write("""<br>Other projects not shown: webapp for market basket analysis, using Associaotn
