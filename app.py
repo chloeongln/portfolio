@@ -103,14 +103,19 @@ with st.container():
                          """)
                 st.write("---")
         
-                # create project 1 container 
+        # create project 2 container 
         with st.container():
             st.write("##")
             col6, col7 = st.columns([1, 2], gap="large")
             with col6:
                 st.image(image)
             with col7:
-                st.subheader("Learning Analytics: Prediction of Students At-Risk of Dropout in MOOCs")
+                st.subheader("Machine Learning: Prediction of Diabetes")
                 st.write("""
+                        This is an exploratory project where i tried out building ensemble models and Optuna, a package for hyperparameter optimization, as well as the development of webapp with streamlit to deploy my model. 
+                        Check out the EDA on the dataset here: https://github.com/chloeongln/diabetes-predictor/blob/main/eda-dpd.ipynb
+                        Summarised takeaways of project:
+                       - Although ensemble models increase model performance compared to individual models, if a dataset is imbalanced, the overall model performance may still not be as accurate.
+                       - Hence, even if balancing is performed, the use of oversampling cannot be too extreme as well due to noise and overfitting. Thus, it is always best to strive for a balanced dataset during data collection.  
                          """)
                 st.write("---")
