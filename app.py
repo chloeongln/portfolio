@@ -58,7 +58,7 @@ with st.container():
                 st.write("""
                     <strong>Singapore University of Social Sciences (SUSS)</strong><br>
                     Bachelor of Science in Business Analytics with Minor in Cloud Computing<br>
-                    Grade: 4.19/5.0
+                    Grade: 4.25/5.0
                 """, unsafe_allow_html=True)
                 st.write("---")
 
@@ -71,6 +71,7 @@ with st.container():
                         - Programming: Python, SQL, Apache Spark
                         - Data Wrangling: Webscraping, Text Mining, Machine Learning with SPSS Modeler/Python
                         - Data Visualisation: PowerBI, Tableau, Python, Excel 
+                        - Automation: Workato
                         """)
                 st.write("---")
             with col3: 
@@ -136,6 +137,8 @@ with st.container():
                         - Decision Tree
                         - Logistic Regression
                          """)
+                st.markdown("[📂 Refer to my FYP here](st.markdown("[📂 Download My Resume](https://drive.google.com/your-file-link)", unsafe_allow_html=True)
+)", unsafe_allow_html=True)
                 st.write("---")
         # create project 2 container 
         with st.container():
