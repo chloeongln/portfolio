@@ -137,8 +137,7 @@ with st.container():
                         - Decision Tree
                         - Logistic Regression
                          """)
-                st.markdown("[📂 Refer to my FYP here](st.markdown("[📂 Download My Resume](https://drive.google.com/your-file-link)", unsafe_allow_html=True)
-)", unsafe_allow_html=True)
+                st.markdown("Refer to my FYP here:https://drive.google.com/drive/folders/16At9eYz1hUrSwtfLaQodVPLzGNCWU6f0?usp=share_link", unsafe_allow_html=True)
                 st.write("---")
         # create project 2 container 
         with st.container():
